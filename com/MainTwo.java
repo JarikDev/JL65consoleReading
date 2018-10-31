@@ -1,0 +1,16 @@
+package com;
+
+import java.io.Console;
+import java.util.Scanner;
+
+public class MainTwo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String s = "";
+        while (!s.equals("exit")) {
+            s=scanner.nextLine();
+            System.out.println(s);
+        }
+
+    }
+}
